@@ -48,12 +48,29 @@
 
 .opdracht-5 div {
     display: flex;
-    flex-flow: row;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .opdracht-5 ul {
     display: flex;
     flex-direction: column;
-    justify-content:
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.item1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.item2 {
+    display: flex;
+    align-items: center;
+}
+
+.item3 {
+    display: flex;
+    align-items: flex-end;
 }
